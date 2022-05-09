@@ -5,7 +5,7 @@ function Num (insnum) {return Number(prompt("Inserisci un numero"));}
 if( Box2.length <= 15){
      Num;
     for(let i = 0; i <= 15 ; i++){
-        Box1.push(Num);
+        Box1.push(Num());
         }
     }
 
